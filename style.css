@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap);
+
+
+footer {
+    text-align: center;
+    margin: 5em;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+body{
+    font-family:'Pixelify Sans', sans-serif;
+    background-color: azure;
+  }
+
+#container{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(107, 144, 226);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(68, 93, 233);
+    color: aliceblue;
+}
+button:active{
+    background-color: rgb(27, 13, 150);
+    color: aliceblue;
+}
+
+input{
+    text-align: center;
+}
+
+#diceResult{
+    margin: 25px;
+
+}
+
+#diceImages img{
+    width: 100px;
+    margin: 5px;
+}
